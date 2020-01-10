@@ -3,20 +3,20 @@
 
 #define SUBJECTS 2
 
-struct student
+struct Student
 {
     char name[20];
     int roll_no;
     float marks[SUBJECTS];
-}arr_student;
+};
 
 int main()
 {
-
-        int i, j;
+        struct Student arr_student;
+        int j;
         float sum = 0;
         
-        printf("\nEnter details of student %d\n\n", i+1);
+        printf("\nEnter details of student %d\n\n");
 
         printf("Enter name: ");
         scanf("%s", arr_student.name);
